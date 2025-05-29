@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Shopify Expert</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header header--sticky">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo-white.png" alt="Shopify Expert">
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <ul class="main-menu">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="/portfolio.html" class="active">Portfolio</a></li>
+                        <li><a href="index.html#blog">Blog</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-right">
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo-white.png" alt="Shopify Expert">
+                </a>
+            </div>
+            <div class="close-btn">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        <ul class="mobile-main-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            <li><a href="index.html#blog">Blog</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+        <div class="mobile-social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
+    </div>
+
+    <!-- Portfolio Banner -->
+    <section class="portfolio-banner">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Our Work</span>
+                <h1 class="section-title">Shopify Portfolio</h1>
+                <p>Explore our successful Shopify projects across different industries and categories.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-filter-section section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Categories Sidebar -->
+                <div class="col-lg-3">
+                    <div class="portfolio-categories">
+                        <h3>Categories</h3>
+                        <ul class="category-list" type="none">
+                            <li class="active" data-category="all">All Projects</li>
+                            <li data-category="fashion">Fashion & Apparel</li>
+                            <li data-category="electronics">Electronics</li>
+                            <li data-category="health">Health & Beauty</li>
+                            <li data-category="home">Home & Living</li>
+                            <li data-category="food">Food & Beverage</li>
+                            <li data-category="sports">Sports & Fitness</li>
+                            <li data-category="jewelry">Jewelry & Accessories</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Items -->
+                <div class="col-lg-9">
+                    <div class="portfolio-grid">
+                        <!-- Fashion & Apparel -->
+                        <div class="portfolio-item portfolio-modal-trigger" data-category="fashion" data-portfolio="1">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio-1.png" alt="Fashion E-commerce Store">
+                            </div>
+                            <div class="portfolio-content">
+                                <h3><a href="#">Fashion E-commerce Store</a></h3>
+                                <p>Custom Theme Development</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        
+                        <!-- Health & Beauty -->
+                        <div class="portfolio-item portfolio-modal-trigger" data-category="health" data-portfolio="2">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio-2.png" alt="Health & Beauty Store">
+                            </div>
+                            <div class="portfolio-content">
+                                <h3><a href="#">Health & Beauty Store</a></h3>
+                                <p>App Integration & Optimization</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        
+                        <!-- Electronics -->
+                        <div class="portfolio-item portfolio-modal-trigger" data-category="electronics" data-portfolio="3">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio-3.png" alt="Electronics Store">
+                            </div>
+                            <div class="portfolio-content">
+                                <h3><a href="#">Electronics Store</a></h3>
+                                <p>Custom App Development</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        
+                        <!-- Home & Living -->
+                        <div class="portfolio-item portfolio-modal-trigger" data-category="home" data-portfolio="4">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio-4.png" alt="Home & Living Store">
+                            </div>
+                            <div class="portfolio-content">
+                                <h3><a href="#">Home & Living Store</a></h3>
+                                <p>Store Migration & Setup</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        
+                        <!-- Food & Beverage -->
+                        <div class="portfolio-item portfolio-modal-trigger" data-category="food" data-portfolio="5">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio-5.png" alt="Food & Beverage Store">
+                            </div>
+                            <div class="portfolio-content">
+                                <h3><a href="#">Food & Beverage Store</a></h3>
+                                <p>Custom Checkout Development</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        
+                        <!-- Sports & Fitness -->
+                        <div class="portfolio-item portfolio-modal-trigger" data-category="sports" data-portfolio="6">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio-6.png" alt="Sports & Fitness Store">
+                            </div>
+                            <div class="portfolio-content">
+                                <h3><a href="#">Sports & Fitness Store</a></h3>
+                                <p>Multi-vendor Marketplace</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        
+                        <!-- Jewelry & Accessories -->
+                        <div class="portfolio-item portfolio-modal-trigger" data-category="jewelry" data-portfolio="7">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio-7.png" alt="Jewelry & Accessories Store">
+                            </div>
+                            <div class="portfolio-content">
+                                <h3><a href="#">Jewelry & Accessories Store</a></h3>
+                                <p>3D Product Visualization</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        
+                        <!-- Fashion & Apparel -->
+                        <div class="portfolio-item portfolio-modal-trigger" data-category="fashion" data-portfolio="8">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio-8.png" alt="Fashion Boutique">
+                            </div>
+                            <div class="portfolio-content">
+                                <h3><a href="#">Fashion Boutique</a></h3>
+                                <p>AR Try-On Integration</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        
+                        <!-- Electronics -->
+                        <div class="portfolio-item portfolio-modal-trigger" data-category="electronics" data-portfolio="9">
+                            <div class="portfolio-image">
+                                <img src="images/portfolio-9.png" alt="Tech Gadgets Store">
+                            </div>
+                            <div class="portfolio-content">
+                                <h3><a href="#">Tech Gadgets Store</a></h3>
+                                <p>Subscription Box Integration</p>
+                                <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Modal -->
+    <div class="portfolio-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="" alt="">
+                </div>
+                <div class="modal-info">
+                    <h2 class="modal-title"></h2>
+                    <p class="modal-description"></p>
+                    <div class="modal-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Client:</span>
+                            <span class="detail-value client"></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Category:</span>
+                            <span class="detail-value category"></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Services:</span>
+                            <span class="detail-value services"></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Results:</span>
+                            <span class="detail-value results"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="footer-widget">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="images/logo-white.png" alt="Shopify Expert">
+                                </a>
+                            </div>
+                            <p class="footer-text"><span>Transform</span> Your E-commerce Business</p>
+                            <form class="newsletter-form">
+                                <input type="email" placeholder="Email Address">
+                                <button type="submit"><i class="fas fa-envelope"></i></button>
+                            form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-widget">
+                            <h5 class="footer-title">Quick Links</h5>
+                            <ul class="footer-links">
+                                <li><a href="index.html#about">About Us</a></li>
+                                <li><a href="index.html#services">Services</a></li>
+                                <li><a href="/contact.html">Contact Us</a></li>
+                                <li><a href="index.html#blog">Blog</a></li>
+                                <li><a href="portfolio.html">Case Studies</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-widget">
+                            <h5 class="footer-title">Contact</h5>
+                            <ul class="footer-contact">
+                                <li><i class="fas fa-envelope"></i> <a href="mailto:contact@shopifyexpert.com">contact@shopifyexpert.com</a></li>
+                                <li><i class="fas fa-map-marker-alt"></i> 123 E-commerce Street, Digital City</li>
+                                <li><i class="fas fa-phone"></i> <a href="tel:+1234567890">+1 (234) 567-890</a></li>
+                            </ul>
+                            <div class="footer-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; <span id="current-year"></span> Shopify Expert | All Rights Reserved</p>
+                </div>
+                <div class="footer-bottom-links">
+                    <a href="#">Terms & Condition</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="/contact.html">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Chat Widget -->
+    <div class="chat-widget">
+        <input type="checkbox" id="chat-toggle">
+        <label for="chat-toggle">
+            <i class="fab fa-facebook-messenger"></i>
+            <i class="fas fa-times"></i>
+        </label>
+        <div class="chat-box">
+            <div class="chat-header">
+                Let's discuss your Shopify project - Online
+            </div>
+            <div class="chat-content">
+                <p>Please fill out the form below to start discussing your Shopify store project with our experts.</p>
+                <form class="chat-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Tell us about your project" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/scroll-to-top.js"></script>
+    <script>
+    // Add active class to current page link
+    document.addEventListener('DOMContentLoaded', function() {
+        const currentPage = window.location.pathname.split('/').pop();
+        const navLinks = document.querySelectorAll('nav a');
+
+        navLinks.forEach(link => {
+            if (link.getAttribute('href') === currentPage) {
+                link.classList.add('active');
+            }
+        });
+    });
+    </script>
+</body>
+</html>

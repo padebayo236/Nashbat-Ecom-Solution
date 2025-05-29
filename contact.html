@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify Expert - E-commerce Solutions</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header header--sticky">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo-white.png" alt="Shopify Expert">
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <ul class="main-menu">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="/portfolio.html">Portfolio</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-right">
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo-white.png" alt="Shopify Expert">
+                </a>
+            </div>
+            <div class="close-btn">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        <ul class="mobile-main-menu">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="mobile-social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <div class="contact-info">
+                            <span class="subtitle">GET IN TOUCH</span>
+                            <h2 class="section-title">Ready to Launch Your Shopify Store?</h2>
+                            <p>Let's discuss your e-commerce goals and create a powerful Shopify store that drives sales and growth for your business.</p>
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <p>123 E-commerce Street, <br>Digital City</p>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <p><a href="mailto:contact@shopifyexpert.com">contact@shopifyexpert.com</a></p>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-phone"></i>
+                                    <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <form class="contact-form" id="contact-form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <select class="form-control" id="store_type" name="store_type" required>
+                                            <option value="" disabled selected>Select Store Type</option>
+                                            <option value="fashion">Print On Demand</option>
+                                            <option value="fashion">Dropshipping</option>
+                                            <option value="fashion">Fashion & Apparel</option>
+                                            <option value="electronics">Electronics</option>
+                                            <option value="home">Home & Living</option>
+                                            <option value="beauty">Health & Beauty</option>
+                                            <option value="food">Food & Beverage</option>
+                                            <option value="sports">Sports & Fitness</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Tell us about your project" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                        <div id="form-messages" class="mt-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="footer-widget">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="images/logo-white.png" alt="Shopify Expert">
+                                </a>
+                            </div>
+                            <p class="footer-text"><span>Transform</span> Your E-commerce Business</p>
+                            <form class="newsletter-form">
+                                <input type="email" placeholder="Email Address">
+                                <button type="submit"><i class="fas fa-envelope"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-widget">
+                            <h5 class="footer-title">Quick Links</h5>
+                            <ul class="footer-links">
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#contact">Contact Us</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#portfolio">Case Studies</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-widget">
+                            <h5 class="footer-title">Contact</h5>
+                            <ul class="footer-contact">
+                                <li><i class="fas fa-envelope"></i> <a href="mailto:contact@shopifyexpert.com">contact@shopifyexpert.com</a></li>
+                                <li><i class="fas fa-map-marker-alt"></i> 123 E-commerce Street, Digital City</li>
+                                <li><i class="fas fa-phone"></i> <a href="tel:+1234567890">+1 (234) 567-890</a></li>
+                            </ul>
+                            <div class="footer-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; <span id="current-year"></span> Shopify Expert | All Rights Reserved</p>
+                </div>
+                <div class="footer-bottom-links">
+                    <a href="#">Terms & Condition</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#contact">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <div class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/scroll-to-top.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
